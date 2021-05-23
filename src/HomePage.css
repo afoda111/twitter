@@ -1,0 +1,35 @@
+.Home__page {
+  flex: 0.4;
+  border-left: 2px solid rgba(211, 211, 211, 0.582);
+  border-right: 2px solid rgba(211, 211, 211, 0.582);
+  border-top: none;
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+.Home__page::-webkit-scrollbar {
+  display: none;
+}
+
+.Home__page__header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 2px solid rgba(211, 211, 211, 0.582);
+  border-left: none;
+  border-right: none;
+}
+.Home__tag {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.Tweeting {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.Tweeting {
+  outline: none;
+  border: none;
+}

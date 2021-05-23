@@ -1,0 +1,60 @@
+.SideBar__contain {
+  flex: 0.3;
+  min-width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sidebar {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.sidebar > .MuiSvgIcon-root {
+  padding: 20px;
+}
+
+.sidebar:hover {
+  background-color: #e8f5fe;
+  border-radius: 30px;
+  color: #0099ff;
+  transition: color 100ms ease-out;
+}
+.sidebar__active {
+  color: #0099ff;
+}
+.Tweet__button {
+  width: 230px !important;
+  height: 40px !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  color: white !important;
+  background-color: #0099ff !important;
+  border-radius: 20px !important;
+  border: none !important;
+  margin-left: 20px !important;
+}
+.Twitter__icon {
+  font-size: 30px !important;
+  color: #0099ff;
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.signup__button {
+  width: 200px !important;
+  height: 40px !important;
+  margin-top: 5px !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  border-radius: 15px !important;
+  outline: none !important;
+  border: none !important;
+  background-color: #0099ff !important;
+  color: white !important;
+}
+
+.button__div {
+  padding-left: 30px;
+  padding-top: 5px;
+}
